@@ -1,0 +1,14 @@
+.zdjecia{
+    width: 250px;
+    border: 1px solid black;
+    padding: 15px;
+    border-radius: 20px;
+    height: auto;
+    cursor: pointer;
+    filter: grayscale(1);
+    transition: transform 0.8s ease;
+}
+
+.zdjecia.grayscale{
+    filter: grayscale(0);
+}

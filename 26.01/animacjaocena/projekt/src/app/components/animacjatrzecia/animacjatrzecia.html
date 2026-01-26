@@ -1,0 +1,30 @@
+<p>Nazwa: {{ nazwaAnimacji }}</p>
+<p>Efekt: {{ nazwaEfektu }}</p>
+
+<p>
+  <img
+    [src]="foto"
+    alt="foto"
+    class="zdjecia"
+    [class.skew]="skew"
+    (click)="toggleSkew()"
+  />
+
+  <img
+    [src]="foto"
+    alt="foto"
+    class="zdjecia"
+    [class.rotate]="rotate"
+    (click)="toggleRotate()"
+  />
+
+  <img
+    [src]="foto"
+    alt="foto"
+    class="zdjecia"
+    [class.scale]="scale"
+    (click)="toggleScale()"
+  />
+</p>
+
+<p>Kliknij na zdjęcie aby ujrzeć efekt</p>

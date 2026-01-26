@@ -1,0 +1,22 @@
+.zdjecia {
+  width: 250px;
+  border: 1px solid black;
+  padding: 15px;
+  margin-right: 50px;
+  border-radius: 20px;
+  height: auto;
+  cursor: pointer;
+  transition: transform 1s;
+}
+
+.zdjecia.skew {
+  transform: skew(15deg, 15deg);
+}
+
+.zdjecia.rotate {
+  transform: rotate(20deg);
+}
+
+.zdjecia.scale {    
+  transform: scale(1.2);
+}

@@ -1,0 +1,30 @@
+<p>Nazwa: {{ nazwaAnimacji }}</p>
+<p>Efekt: {{ nazwaEfektu }}</p>
+
+<p>
+  <img
+    [src]="foto"
+    alt="foto"
+    class="zdjecia"
+    [class.sepia]="sepia"
+    (click)="toggleSepia()"
+  />
+
+  <img
+    [src]="foto"
+    alt="foto"
+    class="zdjecia"
+    [class.gray]="gray"
+    (click)="toggleGray()"
+  />
+
+  <img
+    [src]="foto"
+    alt="foto"
+    class="zdjecia"
+    [class.blur]="blur"
+    (click)="toggleBlur()"
+  />
+</p>
+
+<p>Kliknij na zdjęcie aby ujrzeć efekt</p>

@@ -1,0 +1,12 @@
+<p>Nazwa: {{nazwaAnimacji}}</p>
+<p>Efekt: {{nazwaEfektu}}</p>
+<p>
+    <img
+        [src]="foto"
+        alt="foto"
+        class="zdjecia"
+        [class.grayscale] = 'grayscale'
+        (click)="togglegrayscale()"
+    />
+</p>
+<p>Kliknij na foto aby powiększyć</p>

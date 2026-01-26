@@ -1,0 +1,12 @@
+<p>Nazwa: {{nazwaAnimacji}}</p>
+<p>Efekt: {{nazwaEfektu}}</p>
+<p>
+    <img
+        [src] = 'foto'
+        alt="foto"
+        class="zdjecia"
+        [class.opacity] = 'opacity'
+        (click)="toggleOpacity()"
+    />
+</p>
+<p>Kliknij na foto aby przejrzyste bylo</p>
