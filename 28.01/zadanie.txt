@@ -1,0 +1,1 @@
+Utwórz strone która prezentuje pola figur. Każde pole figury należy Figury należy wygenerować do samego komponentu. Kompenenty: Pole trojkata, pole rabu, pole trapezu i pole prostokąta.
